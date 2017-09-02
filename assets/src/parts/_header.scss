@@ -1,0 +1,13 @@
+.main-header {
+  padding-top: rem(50);
+  padding-bottom: rem(45);
+  &__row {
+    align-items: center;
+  }
+  &__logo {
+    @include flex-col(2);
+  }
+  &__nav {
+    @include flex-col(10);
+  }
+}
